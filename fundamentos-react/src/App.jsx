@@ -9,21 +9,25 @@ export default function App(props) {
     return (
         <div id='app'>
             <h1>Fundamentos React</h1>
-            <Card titulo="Primeiro #1">
-                <Primeiro></Primeiro>
+            <div className="Cards">
+                <Card titulo="Primeiro #1">
+                    <Primeiro></Primeiro>
+                </Card>
 
-            </Card>
-            <Card titulo="Com Parâmetro #2">
-                <ComParametro titulo="Titulo Principal" subtitulo="Titulo Secundario"></ComParametro>
+                <Card titulo="Com Parâmetro #2">
+                    <ComParametro titulo="Titulo Principal" subtitulo="Titulo Secundario"></ComParametro>
+                </Card>
 
-            </Card>
-            <Card titulo="Fragmento #3">
-                <Fragmento></Fragmento>
-            </Card>
-            <Card titulo="Desafio Aleatório #4">
-                <NumeroAleatorio max={50} min={10}></NumeroAleatorio>
-            </Card>
-            
+                <Card titulo="Fragmento #3">
+                    <Fragmento></Fragmento>
+                </Card>
+                
+                <Card titulo="Desafio Aleatório #4">
+                    <NumeroAleatorio max={50} min={10}></NumeroAleatorio>
+                </Card>
+            </div>
+
+
         </div>
     );
 }
