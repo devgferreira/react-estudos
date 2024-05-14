@@ -5,7 +5,7 @@ import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
 import NumeroAleatorio from "./components/basicos/NumeroAleatorio";
 import Card from "./components/layout/Card";
-
+import Familia from "./components/basicos/Familia";
 export default function App(props) {
     return (
         <div className='App'>
@@ -25,6 +25,9 @@ export default function App(props) {
 
                 <Card titulo="Desafio Aleatório #4">
                     <NumeroAleatorio max={50} min={10}></NumeroAleatorio>
+                </Card>
+                <Card titulo="Componente com Filhos #5">
+                    <Familia sobrenome="Ferreira"></Familia>
                 </Card>
             </div>
 
