@@ -8,9 +8,7 @@ const domNode = document.getElementById('root');
 const root = createRoot(domNode);
 root.render(
     <div>
-        <strong>
-            <Primeiro></Primeiro>
-            <ComParametro></ComParametro>
-        </strong>
+        <Primeiro></Primeiro>
+        <ComParametro titulo="Titulo Principal" subtitulo="Titulo Secundario"></ComParametro>
     </div>
 )
