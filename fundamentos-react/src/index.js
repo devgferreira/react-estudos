@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client';
-import './index.css'
-import Primeiro from './components/basicos/Primeiro'
+import React from "react";
+import './index.css';
+import Primeiro from './components/basicos/Primeiro';
 
 const domNode = document.getElementById('root');
 const root = createRoot(domNode);
