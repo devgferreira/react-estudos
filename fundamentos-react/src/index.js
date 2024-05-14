@@ -11,5 +11,6 @@ root.render(
     <div id='app'>
         <Primeiro></Primeiro>
         <ComParametro titulo="Titulo Principal" subtitulo="Titulo Secundario"></ComParametro>
+        <Fragmento></Fragmento>
     </div>
 )
