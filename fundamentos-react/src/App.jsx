@@ -9,6 +9,7 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 export default function App(props) {
     return (
         <div className='App'>
@@ -41,6 +42,9 @@ export default function App(props) {
                 </Card>
                 <Card titulo="Tabela #7">
                     <TabelaProdutos></TabelaProdutos>
+                </Card>
+                <Card titulo="Renderização Condicional #8">
+                    <ParOuImpar numero={20}></ParOuImpar>
                 </Card>
             </div>
 
