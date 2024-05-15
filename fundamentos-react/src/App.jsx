@@ -8,6 +8,7 @@ import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 export default function App(props) {
     return (
         <div className='App'>
@@ -37,6 +38,9 @@ export default function App(props) {
                 </Card>
                 <Card titulo="Repetição #6">
                     <ListaAlunos></ListaAlunos>
+                </Card>
+                <Card titulo="Tabela #7">
+                    <TabelaProdutos></TabelaProdutos>
                 </Card>
             </div>
 
