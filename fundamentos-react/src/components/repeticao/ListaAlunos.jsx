@@ -1,12 +1,20 @@
 import React from "react";
+import alunos from "../../data/alunos";
 
-export default function ListaAlunos(props){
-    return(
+export default function ListaAlunos(props) {
+
+
+    const listaAlunos = alunos.map(aluno => {
+        return (
+            <li key={aluno.id}>
+                {aluno.id} - {aluno.nome} -&gt; {aluno.nota}
+            </li>
+        )
+    })
+    return (
         <div>
             <ul>
-                <li>Gabriel - 10</li>
-                <li>Lucas - 8.2</li>
-                <li>João - 5.7</li>
+                {listaAlunos}
             </ul>
         </div>
     );
