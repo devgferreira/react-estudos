@@ -6,7 +6,7 @@ export default function TabelaProdutos(props) {
 
     const row = produtos.map((produto) => {
         return (
-            <tr>
+            <tr key={produto.id}>
                 <td>{produto.id}</td>
                 <td>{produto.nome}</td>
                 <td>R$ {produto.preco}</td>
@@ -15,8 +15,8 @@ export default function TabelaProdutos(props) {
     })
 
     return (
-        <div class="container mt-3">
-            <table class="table table-bordered">
+        <div >
+            <table >
                 <thead>
                     <tr>
                         <th>Id</th>
