@@ -10,6 +10,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 export default function App(props) {
     return (
         <div className='App'>
@@ -45,6 +46,9 @@ export default function App(props) {
                 </Card>
                 <Card titulo="Renderização Condicional #8">
                     <ParOuImpar numero={20}></ParOuImpar>
+                </Card>
+                <Card titulo="Comunicação Direta #9">
+                    <DiretaPai ></DiretaPai>
                 </Card>
             </div>
 
