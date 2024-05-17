@@ -11,6 +11,7 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 export default function App(props) {
     return (
         <div className='App'>
@@ -49,6 +50,9 @@ export default function App(props) {
                 </Card>
                 <Card titulo="Comunicação Direta #9">
                     <DiretaPai ></DiretaPai>
+                </Card>
+                <Card titulo="Comunicação Indireta #9">
+                    <IndiretaPai ></IndiretaPai>
                 </Card>
             </div>
 
