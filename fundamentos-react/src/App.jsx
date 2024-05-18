@@ -12,6 +12,7 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/fomulario/Input";
 export default function App(props) {
     return (
         <div className='App'>
@@ -55,7 +56,7 @@ export default function App(props) {
                     <IndiretaPai ></IndiretaPai>
                 </Card>
                 <Card titulo="Comunicação Indireta #10">
-                    <IndiretaPai ></IndiretaPai>
+                    <Input ></Input>
                 </Card>
             </div>
 
