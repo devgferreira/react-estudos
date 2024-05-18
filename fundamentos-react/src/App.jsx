@@ -55,7 +55,7 @@ export default function App(props) {
                 <Card titulo="Comunicação Indireta #9">
                     <IndiretaPai ></IndiretaPai>
                 </Card>
-                <Card titulo="Comunicação Indireta #10">
+                <Card titulo="Comunicação Controlada (Input) #10">
                     <Input ></Input>
                 </Card>
             </div>
