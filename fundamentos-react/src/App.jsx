@@ -60,7 +60,7 @@ export default function App(props) {
                     <Input ></Input>
                 </Card>
                 <Card titulo="Contador #12">
-                    <Contador ></Contador>
+                    <Contador numeroInicial={10} ></Contador>
                 </Card>
             </div>
 
