@@ -13,6 +13,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/fomulario/Input";
+import Contador from "./components/contador/Contador";
 export default function App(props) {
     return (
         <div className='App'>
@@ -52,11 +53,14 @@ export default function App(props) {
                 <Card titulo="Comunicação Direta #9">
                     <DiretaPai ></DiretaPai>
                 </Card>
-                <Card titulo="Comunicação Indireta #9">
+                <Card titulo="Comunicação Indireta #10">
                     <IndiretaPai ></IndiretaPai>
                 </Card>
-                <Card titulo="Comunicação Controlada (Input) #10">
+                <Card titulo="Comunicação Controlada (Input) #11">
                     <Input ></Input>
+                </Card>
+                <Card titulo="Contador #12">
+                    <Contador ></Contador>
                 </Card>
             </div>
 
