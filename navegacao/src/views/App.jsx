@@ -1,9 +1,13 @@
+import Menu from '../components/layout/menu/Menu';
+import './App.css'
 import React from "react";
 
 const App = props => {
-    <div className="App">
-        Componente App
-    </div>
+    return (
+        <div className="App">
+            <Menu></Menu>
+        </div>
+    )
 }
 
 export default App
