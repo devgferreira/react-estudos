@@ -2,9 +2,9 @@ import './Menu.css'
 import React from "react";
 
 const Menu = props => {
-    <div className="Menu">
+    <aside className="Menu">
         Componente Menu
-    </div>
+    </aside>
 }
 
 export default Menu
